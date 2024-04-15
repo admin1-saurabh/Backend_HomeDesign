@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  # get 
   root 'home#index'
   resources :cart_items
   resources :merchants
